@@ -1,0 +1,5 @@
+real = float (input ("Quanto de dinheiro tem na sua carteira, camarada ? R$:"))
+dolar = real / 5.78
+ien = real / 3.38
+euro = real / 6.18
+print ("Com R${:2f} você pode comprar {}dolares, {}ienes, {}euros (Moeda atualizado em dia 1 de Agosto)".format(real,dolar,ien,euro))
